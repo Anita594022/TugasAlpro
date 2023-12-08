@@ -14,7 +14,6 @@ public class FaktorialGUI extends JFrame implements ActionListener {
         });
     }
 
-
     public FaktorialGUI() {
         setTitle("Faktorial");
         setSize(500, 300);
@@ -24,7 +23,6 @@ public class FaktorialGUI extends JFrame implements ActionListener {
 
         JPanel panel = new JPanel();
         
-
         inputField = new JTextField(10);
         inputField.setPreferredSize(new Dimension(100, 30));
         hitungButton = new JButton("Hitung");
@@ -76,7 +74,6 @@ public class FaktorialGUI extends JFrame implements ActionListener {
         return faktorial;
     }
 
-    
     private void setResizeable(boolean b) {
         throw new UnsupportedOperationException("Not supported yet."); 
     }
